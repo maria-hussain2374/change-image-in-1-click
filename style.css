@@ -1,0 +1,38 @@
+body{
+    background-image: linear-gradient( pink,purple,green);
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    padding: 10px 20px;
+}
+h1{
+    color: blue;
+  
+  /* Media Queries for Small Screens */
+  
+  @media only screen and (max-width: 768px) {
+    #btn {
+      margin-left: 10%;
+      width: 80%;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    #btn {
+      margin-left: 5%;
+      width: 90%;
+    }
+  }
+  
+  @media only screen and (max-width: 320px) {
+    #btn {
+      margin-left: 2%;
+      width: 95%;
+    }
+  }
+  
